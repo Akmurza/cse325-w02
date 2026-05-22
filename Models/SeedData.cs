@@ -21,6 +21,30 @@ public static class SeedData
             context.Movie.AddRange(
                 new Movie
                 {
+                    Title = "Modern Times",
+                    ReleaseDate = DateTime.Parse("1936-02-05"),
+                    Genre = "Comedy",
+                    Rating = "G",
+                    Price = 2.99M
+                },
+                new Movie
+                {
+                    Title = "Forrest Gump",
+                    ReleaseDate = DateTime.Parse("1994-07-06"),
+                    Genre = "Drama",
+                    Rating = "PG-13",
+                    Price = 3.99M
+                },
+                new Movie
+                {
+                    Title = "Avatar: The Way of Water",
+                    ReleaseDate = DateTime.Parse("2022-12-16"),
+                    Genre = "Action",
+                    Rating = "PG-13",
+                    Price = 3.99M
+                },
+                new Movie
+                {
                     Title = "When Harry Met Sally",
                     ReleaseDate = DateTime.Parse("1989-2-12"),
                     Genre = "Romantic Comedy",
